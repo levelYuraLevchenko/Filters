@@ -22,7 +22,6 @@ namespace Filters.Controllers
             }
             else
             {
-                // 
                 ModelState.AddModelError("", "Incorrect username or password");
                 return View();
             }
